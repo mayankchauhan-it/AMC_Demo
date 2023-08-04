@@ -27,4 +27,4 @@ def loginpage(request):
     #         return render(request, 'dashboard/login.html', {'error': 'Invalid credentials'})
 
 
-    return HttpResponse("<h1> Aa Web Site Chalu </h1>")
+    return HttpResponse("<h1> Aa Web Site Chalu..... </h1>")
