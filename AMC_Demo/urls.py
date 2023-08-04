@@ -19,5 +19,5 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    path('https://amc-demo.vercel.app/', include('admin_panel.urls')),
+    path('', include('admin_panel.urls')),
 ]
